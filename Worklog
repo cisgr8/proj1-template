@@ -8,4 +8,32 @@ For each working session, describe:
      (2) what you learned  
 For full credit, include unique details
 Vague general entries will receive zero or low credit
--------------------------------------------------------
+-------------------------example entry------------------------------
+Date:  Mon, Feb 17, 4pm - 7pm
+
+(1) Actions: worked on part 3:
+     - read the instructions several times
+     - created the hello.c file and edited the system table files
+     - kernel would not compile, error with system table files
+          - summary of error message
+          - summary of research on error message
+     - tried copying a line and modifying it to make sure format was identical to existing lines
+     - compiled successfully
+     - created the test file
+     - test file would not run
+          - summary of error message
+          - summary of research on error message
+     - realized the test file was in the wrong directory
+          - researched what a home directory is
+     - moved test file to my home directory
+     - recompiled
+     - successfully executed the system call and verified the output in the dmsg log
+
+(2) What I learned:
+     - The files that needed to be created or modified for system calls
+     - how system calls are named
+     - how system calls are executed from user space
+     - how system calls are tested
+     - that a home directory is the default directory created for each user on a linux machine
+     - the purpose of the dmsg log
+--------------------------------------------------------------------
